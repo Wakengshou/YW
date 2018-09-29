@@ -1,13 +1,27 @@
 
 @font-face {
-    font-family: nameFonts;
-    src: url("/resource/Fonts/STHUPO.ttf");
+    font-family: huaWenHuPo;
+    src: url("../resource/Fonts/STHUPO.TTF");
 }
 
+@font-face {
+    font-family: xingKai;
+    src: url("../resource/Fonts/STXINGKA.TTF");
+}
 
 @font-face {
-    font-family: welcomeFonts;
-    src: url("/resource/Fonts/STKAITI.ttf");
+    font-family: songTi;
+    src: url("../resource/Fonts/AdobeSongStd-Light.otf");
+}
+
+@font-face {
+    font-family: kaiTi;
+    src: url("../resource/Fonts/AdobeKaitiStd-Regular.otf");
+}
+
+@font-face {
+    font-family: youYuan;
+    src: url("../resource/Fonts/SIMYOU.TTF ");
 }
 
 #header{
@@ -54,7 +68,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    font-family: nameFonts,STHUPO;
+    font-family: huaWenHuPo,STHUPO;
     font-size: 3vw;
 }
 
@@ -67,7 +81,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    font-family: welcomeFonts,STKAITI;
+    font-family: kaiTi,STKAITI;
     font-size: 1.5vw;
 }
 
