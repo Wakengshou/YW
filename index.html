@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <title>挖坑兽的收纳盒</title>
     <link href="css/main.css" rel="stylesheet" type="text/css">
+    <link href="resource/favicon.ico" rel="icon">
     <script src="script/jQuery.js"></script>
 </head>
 <body>
@@ -15,19 +16,21 @@
             <img class="image" src="resource/head01.jpg">
         </div>
         <div id="introduce">
-            <div id="selfPhoto"><img class="image" src="resource/selfPhoto.png"></div>
+            <div id="selfPhoto"><img class="image" src="resource/selfPhoto.png" title="头像"></div>
             <div id="name"><p>挖坑兽</p></div>
             <div id="welcome"><p>请你和我说一会儿废话 <br />请你和我谈一谈永恒</p></div>
+            <audio src="resource/windy_tales.mp3" controls="controls" autoplay="autoplay" loop="loop">
+            </audio>
         </div>
         <div id="menu">
             <div id="navTable">
                 <div class="navRow">
-                    <div class="box" id="box1"><button class="navButn">全</button></div>
-                    <div class="box" id="box2"><button class="navButn">诗</button></div>
+                    <div class="box" id="box1"><button id="navButn1" class="navButn">全</button></div>
+                    <div class="box" id="box2"><button id="navButn2" class="navButn">诗</button></div>
                 </div>
                 <div class="navRow">
-                    <div class="box" id="box3"><button class="navButn">文</button></div>
-                    <div class="box" id="box4"><button class="navButn">纪</button></div>
+                    <div class="box" id="box3"><button id="navButn3" class="navButn">文</button></div>
+                    <div class="box" id="box4"><button id="navButn4" class="navButn">纪</button></div>
                 </div>
             </div>
             <div id="search">
@@ -38,14 +41,22 @@
 
         </div>
         <div id="message">
-
+            <div id="messageHead">到&nbsp此&nbsp一&nbsp游</div>
+            <div id="messageMain"></div>
+            <div id="messageFoot">雁过留声</div>
         </div>
     </div>
     <div id="footer">
-
+        <p>联系我：1049792388@qq.com
+            &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+            番/剧推荐&nbsp
+            <a href="https://www.bilibili.com/bangumi/play/ep30872" target="_blank">虫师</a>&nbsp|&nbsp
+            <a href="https://www.bilibili.com/bangumi/play/ep87456" target="_blank">月影兰</a>&nbsp|&nbsp
+            <a href="https://www.bilibili.com/bangumi/play/ep100454" target="_blank">鬼平</a>&nbsp|&nbsp
+            <a href="https://www.bilibili.com/bangumi/play/ep199998" target="_blank">真田丸</a>&nbsp|&nbsp
+            <a href="https://www.bilibili.com/bangumi/play/ep204577" target="_blank">unatual</a>
+        </p>
     </div>
     <script src="script/main.js"></script>
-    <!--<audio src="resource/windy_tales.mp3" controls="controls" autoplay="autoplay" loop="loop">-->
-    <!--</audio>-->
 </body>
 </html>

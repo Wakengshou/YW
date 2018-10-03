@@ -5,7 +5,7 @@
 }
 
 @font-face {
-    font-family: xingKai;
+    font-family: huaWenXingKai;
     src: url("../resource/Fonts/STXINGKA.TTF");
 }
 
@@ -27,10 +27,11 @@
 #header{
     border:#97846c solid 2px;
     width:96%;
-    margin: 2% auto 0px;
+    margin: 2% auto 0;
     padding:1%;
     display:flex ;
     flex-wrap:wrap;
+    box-shadow: #a8a8a8 5px 8px 8px;
 }
 
 #headImg{
@@ -68,7 +69,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    font-family: huaWenHuPo,STHUPO;
+    font-family: "huaWenHuPo", "STHUPO", serif;
     font-size: 3vw;
 }
 
@@ -81,8 +82,14 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    font-family: kaiTi,STKAITI;
+    font-family: "kaiTi", "Adobe 楷体 Std R", serif;
     font-size: 1.5vw;
+}
+
+#introduce audio{
+    margin: auto;
+    width: 70%;
+    height: 15%;
 }
 
 #mainBody{
@@ -90,25 +97,7 @@
     height:80vh ;
     margin-left:14vw;
     margin-top:5vh;
-    border:red 2px solid;
-}
-
-#message{
-    width:20vw;
-    height:55vh ;
-    border:red 2px solid;
-    /*margin: auto;*/
-    margin-top:5vh;
-    margin-left: 1vw;
-    /*margin-right:1vw;*/
-    /*align-self:flex-end;*/
-}
-
-#footer{
-    width:98%;
-    height:10vh ;
-    margin: 1vh auto auto;
-    border:red 2px solid;
+    /*border:red 2px solid;*/
 }
 
 #menu{
@@ -118,7 +107,7 @@
     /*border:red 2px solid;*/
     margin-left:1%;
     margin-top:41vh;
-    padding: 0px;
+    padding: 0;
     z-index:1000;
     display: flex;
     flex-direction: column;
@@ -129,8 +118,7 @@
 #navTable{
     width: 12vw;
     height: 12vw;
-    margin: 0px auto;
-    font-size: 1vw;
+    margin: 0 auto;
     /*border: red 2px solid;*/
 }
 
@@ -159,6 +147,8 @@
     text-decoration: none;
     display: inline-block;
     font-size: 2.5vw;
+    font-family: youYuan, SIMYOU, serif;
+    font-weight: bold;
 }
 
 #search {
@@ -167,4 +157,69 @@
     margin-top: 3vh;
     align-items: center;
     /*border:red 2px solid;*/
+}
+
+#message{
+    width:20vw;
+    height:50vh ;
+    /*border:red 2px solid;*/
+    margin-top:7vh;
+    margin-left: 1vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#messageHead{
+    width: 85%;
+    height: 10%;
+    /*border: red 2px solid;*/
+    border-radius: 1em 1em 0 0;
+    background-color: #e3bd8d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #4d4030;
+    font-size: 1.8em;
+    font-family: huaWenXingKai, STXINGKA, serif;
+}
+
+#messageMain{
+    width: 90%;
+    height: 75%;
+    /*border: red 2px solid;*/
+    margin: 4%;
+}
+
+#messageFoot{
+    width: 50%;
+    height: 9%;
+    /*border: red 2px solid;*/
+    border-radius: 2em;
+    background-color: #cfccc9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #4d4030;
+    font-size: 1.2em;
+    font-family: huaWenXingKai, STXINGKA, serif;
+}
+
+#footer{
+    width:98%;
+    height:10vh ;
+    margin: 1vh auto auto;
+    /*border:red 2px solid;*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: huaWenXingKai, STXINGKA, serif;
+    font-size: 140%;
+}
+
+a{
+    target: new;
+    text-decoration: none;
+    color: inherit;
 }
